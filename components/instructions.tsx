@@ -40,7 +40,8 @@ export default function Instructions() {
             to point to your model
           </li>
           <li>
-            Example: <code>modelPath="/assets/3d/your-model.glb"</code>
+            Example:{" "}
+            <code>modelPath=&quot;/assets/3d/your-model.glb&quot;</code>
           </li>
         </ol>
         <p className="mt-2">

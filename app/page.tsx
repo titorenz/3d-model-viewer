@@ -2,7 +2,6 @@
 
 import { Suspense } from "react";
 import ModelViewer from "@/components/model-viewer";
-import Instructions from "@/components/instructions";
 
 export default function Home() {
   return (
@@ -16,7 +15,6 @@ export default function Home() {
       >
         <ModelViewer modelPath="/assets/3d/barn.glb" />
       </Suspense>
-      <Instructions />
     </main>
   );
 }
